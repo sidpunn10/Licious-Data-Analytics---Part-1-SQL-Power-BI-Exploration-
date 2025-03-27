@@ -1,1 +1,19 @@
+Licious SQL Questions
+1.	Rank products within each category by total revenue, showing their revenue contribution percentage using a window function.
+2.	Calculate the time interval (in days) between consecutive orders for each customer using LAG, and find the average interval.
+3.	Using LEAD, find the next order date and product for each customer.
+4.	Calculate the running total of revenue for each customer over time using a window function.
+5.	Find the top 3 products by revenue in each city using window functions and joins.
+a.	Calculate the month-over-month revenue growth percentage for each product category using LAG.
+6.	For each order, calculate the difference in total_amount compared to the previous and next order for the same customer using LAG and LEAD.
+7.	Calculate the cumulative quantity sold for each product over time, partitioned by category.
+8.	Find customers whose average order value has increased over the last 3 months compared to the previous 3 months.
+9.	Rank customers by their total spending within each city using a window function.
+10.	Calculate the percentage of total revenue contributed by each order within a customer’s order history.
+11.	For each product, calculate the average time interval between orders, grouped by category.
+12.	Identify products where the stock quantity has dropped below 10% of its initial value after a specific order using window functions.
+13.	Calculate the average preparation time of products ordered by each customer, ranked within their city.
+14.	For each customer, calculate the cumulative revenue contribution by order status over time.
+15.	Classify customers into loyalty tiers based on their total spending and order frequency in the last 6 months, using CASE WHEN. Assign tiers as 'Platinum' (total spending > 5000 AND order count > 10), 'Gold' (total spending > 3000 AND order count > 5), 'Silver' (total spending > 1000 AND order count > 2), or 'Bronze' (all others). Include the total spending and order count in the results
+16.	Identify the busiest day of the week for orders in each month over the past year, using date/time functions to extract the day name and rank days by order count. Use window functions to rank days within each month and year, and return only the top day per month.
 
